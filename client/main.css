@@ -1,0 +1,196 @@
+
+.heading{
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    color: white; 
+    width: 200px; 
+    left: 45%;
+  }
+  
+  body{
+    background: url('https://i.ytimg.com/vi/kkVGBn-haDo/maxresdefault.jpg');
+    background-size: 100%;
+  }
+  
+  .heading2{
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 26px;
+    width: 350px;
+    left: 5%;
+  }
+  
+  .name_entry{
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+    width: 350px;
+    padding: 1%;
+    border-radius: 5%;
+    height: 40px;
+    left: 5%;
+  }
+  
+  .player1{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 20px;
+  }
+  
+  .player2{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 20px;
+  }
+  
+  .submitButton{
+    position: absolute;
+    left: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .scoreboard{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    background-color: white;
+    border: 1px;
+    border-radius: 5%;
+    left: 7%;
+    top: 30%;
+  }
+  
+  .scoreboard_name,.scoreboard_score{
+    padding: 10px;
+    text-align: center;
+    border: 10px;
+  }
+  
+  .scoreboard_name{
+    font-weight: bold;
+    /* border-bottom: 1px solid; */
+  }
+  
+  #playerOneName{
+    color: red;
+  }
+  
+  #playerTwoName{
+    color: blue;
+  }
+  
+  .grid-container{
+      position: absolute;
+      top: 4rem;
+      left: 50%;
+      transform: translate(-50%);
+      width: 600px;
+      height: 520px;
+      background: rgba(0, 0, 0, .5);
+      border: 1px solid black;
+      padding: 1.5rem;
+      /* box-shadow: 5px 5px rgb(104, 103, 103); */
+    }
+  .table_square{
+    width: 75px;
+    height: 75px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 100%;
+   }
+  
+   .button_container{
+     display: flex
+   }
+  
+  .game_reset_button{
+    position: absolute;
+    top: 45vh;
+    left: 15%;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    font-size: 30px;
+    border-radius: 40%;
+    padding: 1%;
+    transform: translate();
+    box-shadow: inset green;
+  
+  }
+  
+  .game_reset_button:hover{
+    box-shadow: inset green;
+  }
+  
+  .match_reset_button{
+    position: absolute;
+    top: 45vh;
+    left: 1%;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    font-size: 30px;
+    border-radius: 40%;
+    padding: 1%;
+    transform: translate();
+    box-shadow: inset green;
+  }
+  
+  .game_win_window{
+    visibility: hidden;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .game_win_text{
+    position: relative;
+    margin: auto;
+    align-self: center;
+    top: 20%;
+    left: 10%;
+    font-size: 15px;
+  }
+  
+  .next_game_button{
+    position: relative;
+    margin: auto;
+    align-items: center;
+    top: 40%;
+    left: 10%;
+  }
+  
+  .game_win_reset_match{
+    position: relative;
+    margin: auto;
+    align-items: center;
+    top: 40%;
+    left: 20%;
+  }
+  
+  
+  
+  /* .overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+  } */
+  
